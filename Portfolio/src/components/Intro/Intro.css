@@ -1,0 +1,129 @@
+/* Main Section Styling */
+#intro {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(243, 238, 234, 1);
+    color: rgba(125, 113, 94, 1);
+    text-align: center;
+    padding: 2rem;
+}
+
+/* Container for Intro Content */
+.intro2 {
+    max-width: 70rem;
+    width: 100%;
+    margin: auto;
+    padding: 5rem 1rem 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    /* border: 2px solid red; */
+}
+
+/* Heading Styling */
+.intro2 h1 {
+    width: 500px;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    /* border: 2px solid red; */
+}
+
+/* Dashed Border Design */
+.draw {
+    border: 2px dashed rgb(180, 115, 24);
+    background-color: transparent;
+    height: 280px;
+    width: 230px;
+    position: absolute;
+    right: 50%;
+    transform: translateX(50%);
+    border-radius: 25% 75% 23% 77% / 67% 37% 63% 33%;
+}
+
+/* Profile Image */
+.intro2 img {
+    width: 18rem;
+    height: 18rem;
+    border-radius: 55% 45% 55% 45% / 62% 30% 70% 38%;
+    object-fit: cover;
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Image Hover Effect */
+.intro2 img:hover {
+    transform: scale(1.05);
+}
+
+/* Responsive Adjustments */
+@media (min-width: 768px) {
+    .intro2 {
+        flex-direction: row;
+        text-align: left;
+        justify-content: center;
+    }
+
+    .intro2 img {
+        width: 20rem;
+        height: 20rem;
+    }
+
+    .draw {
+        height: 380px;
+        width: 300px;
+        right: 40%;
+    }
+}
+
+/* Paragraph Styling */
+.intro2 p {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+    line-height: 1.6;
+}
+
+/* Objective Section */
+.objective {
+    max-width: 800px;
+    width: 90%;
+    margin: 30px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.objective h3 {
+    font-size: 1.6rem;
+    font-weight: bold;
+    font-family: cursive;
+    margin-bottom: 10px;
+}
+
+.objective p {
+    font-size: 1.1rem;
+    color: #444;
+}
+
+/* Hire Me Button */
+.hire-me-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgba(125, 113, 94, 1);
+    color: rgba(243, 238, 234, 1);
+    font-size: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Hover Effect */
+.hire-me-button:hover {
+    background-color: rgba(243, 238, 234, 1);
+    color: rgba(125, 113, 94, 1);
+    box-shadow: 0px 0px 10px rgba(125, 113, 94, 0.7);
+    transform: scale(1.05);
+}
