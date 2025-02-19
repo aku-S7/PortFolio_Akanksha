@@ -3,8 +3,7 @@ import "./Skills.css";
 
 function Skills() {
   const skills = [
-    { name: 'HTML', level: 'Advanced' },
-    { name: 'CSS', level: 'Advanced' },
+    { name: 'HTML/CSS', level: 'Advanced' },
     { name: 'React js', level: 'fourstar' },
     { name: 'JavaScript', level: 'fourstar' },
     { name: 'Node.js', level: 'Intermediate' },
