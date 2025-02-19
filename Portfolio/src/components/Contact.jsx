@@ -2,7 +2,7 @@ function Contact() {
     return (
       <section id="contact" className="py-20 bg-[rgba(243, 238, 234, 1])">
         <div className="max-w-4xl mx-auto px-4">
-          <h2 className="text-3xl font-bold text-center mb-12">Get in Touch</h2>
+          <h2 className="text-3xl font-bold text-center mb-12 font-cursive ">Get in Touch</h2>
           <form className="max-w-lg mx-auto">
             <div className="mb-6">
               <label htmlFor="name" className="block mb-2 text-sm font-medium">Name</label>
