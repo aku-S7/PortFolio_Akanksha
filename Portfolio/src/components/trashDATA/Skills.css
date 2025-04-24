@@ -28,7 +28,11 @@
     margin-bottom: 3rem;
     position: relative;
     font-family: cursive;
+<<<<<<< HEAD:Portfolio/src/components/trashDATA/Skills.css
     
+=======
+
+>>>>>>> 306c4240a6ddc89b28a8213aa5268b504dea457f:Portfolio/src/components/Skill/Skills.css
   }
 
   .skills-title::before {
@@ -91,4 +95,8 @@
     color: rgba(125, 113, 94, 1);
     font-size: 1.25rem;
   }
+<<<<<<< HEAD:Portfolio/src/components/trashDATA/Skills.css
    */
+=======
+  
+>>>>>>> 306c4240a6ddc89b28a8213aa5268b504dea457f:Portfolio/src/components/Skill/Skills.css
