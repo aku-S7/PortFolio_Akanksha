@@ -1,4 +1,4 @@
-*{
+/* *{
     color: rgba(125, 113, 94, 1);
     background-color: rgba(243, 238, 234, 1);
 }
@@ -6,13 +6,13 @@
 .skills-section {
     padding-top: 5rem;
     padding-bottom: 5rem;
-    /* border: 2px solid green; */
+    
   }
   
   .skills-container {
     max-width: 56rem;
     margin-left: auto;
-    /* border: 2px solid blue; */
+   
     margin-right: auto;
     padding-left: 1rem;
     padding-right: 1rem;
@@ -23,12 +23,12 @@
     margin-right: auto;
     font-size: 1.875rem;
     width: 100px;
-    /* border: 2px solid red; */
     font-weight: 700;
     text-align: center;
     margin-bottom: 3rem;
     position: relative;
-
+    font-family: cursive;
+    
   }
 
   .skills-title::before {
@@ -40,7 +40,7 @@
     height: 2px;
     background-color:rgba(125, 113, 94, 1);
     transform: scaleX(0);
-    transform-origin: center; /* Set the transformation origin at the center */
+    transform-origin: center; 
     transition: transform 0.3s ease-in-out;
   }
   
@@ -52,10 +52,10 @@
   .skills-grid {
     display:flex;
     gap: 1.5rem;
-    /* border: 2px solid red; */
+   
     justify-content: center;
     flex-wrap: wrap;
-    /* display: flex; */
+    
   }
   
   @media (min-width: 768px) {
@@ -72,7 +72,7 @@
   
   .skill-card {
     padding: 1.5rem;
-    /* background-color: #F9FAFB; */
+   
     border-radius: 0.5rem;
     box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
     width: 250px;
@@ -91,4 +91,4 @@
     color: rgba(125, 113, 94, 1);
     font-size: 1.25rem;
   }
-  
+   */

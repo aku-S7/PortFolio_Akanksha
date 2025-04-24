@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <div class="container" >
+    <h2>my animePage</h2>
+  </div>
+
+
+<script>
+  const container = document.querySelector('.container');
+
+for (var i = 0; i < 5; i++) {
+    const blocks = document.createElement('div');
+    blocks.classList.add('block');
+    container.appendChild(blocks);
+}
+</script>
+</body>
+</html>

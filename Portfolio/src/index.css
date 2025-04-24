@@ -5,3 +5,6 @@
 html {
   scroll-behavior: smooth;
 }
+* {
+  @apply text-[#7d715e] bg-[#f3eeea];
+}
