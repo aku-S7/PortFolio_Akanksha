@@ -17,7 +17,7 @@ function Navbar() {
         <a href="#projects" className="px-3 py-2 rounded-md text-sm font-medium hover:bg-[rgba(125,113,94,0.1)]">
           Link
         </a>
-        <a href="#contacts" className="px-3 py-2 rounded-md text-sm font-medium hover:bg-[rgba(125,113,94,0.1)]">
+        <a href="#contact" className="px-3 py-2 rounded-md text-sm font-medium hover:bg-[rgba(125,113,94,0.1)]">
           Contact
         </a>
       </div>
