@@ -1,10 +1,11 @@
 import ScrollAnimationWrapper from "./ScrollAnimationWrapper"; 
 import React from "react";
+import back from "../assets/back.jpg";
 
 function Contact() {
   return (
     <ScrollAnimationWrapper>
-      <section id="contact" className="py-20 bg-[rgba(243,238,234,1)]">
+      <section id="contact" className="py-20 bg-[rgba(243,238,234,1)]" style={{ backgroundImage: `url(${back})` }} >
         <div className="max-w-4xl mx-auto px-4">
           <h2 className="relative text-3xl font-bold text-center mb-12 font-[cursive] group w-[25%] ml-auto mr-auto">
             Get in Touch

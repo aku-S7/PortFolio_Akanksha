@@ -4,7 +4,8 @@ import ScrollAnimationWrapper from "./ScrollAnimationWrapper";
 import myImage from "../assets/akankshaIMAGE.png";
 import myObj from "../assets/objNew.png";
 import DottedBorderAnimation from "./DottedBorderAnimation";
-import video from "../assets/videooo.mp4"
+import video from "../assets/bckV.mp4";
+
 function Intro() {
   const typedRef = useRef(null);
 
@@ -27,17 +28,17 @@ function Intro() {
     <ScrollAnimationWrapper>
       <section
         id="intro"
-        className=" min-h-screen flex flex-col items-center justify-center bg-[rgba(243,238,234,1)] text-[rgba(125,113,94,1)] text-center p-8"
+        className="min-h-screen flex flex-col items-center justify-center bg-[rgba(243,238,234,1)] text-[rgba(125,113,94,1)] text-center p-8"
       >
         <ScrollAnimationWrapper className="max-w-5xl w-full mx-auto flex flex-col md:flex-row items-center gap-8 px-4 py-16">
-          <div className="  flex flex-col md:flex-row items-center justify-center  md:items-start text-center md:text-left gap-6">
-            <h1 className="  text-5xl font-bold mb-4 w-[600px] h-[300px] text-center mt-12">
+          <div className="flex flex-col md:flex-row items-center justify-center md:items-start text-center md:text-left gap-6">
+            <h1 className="text-5xl font-bold mb-4 w-[600px] h-[300px] text-center mt-12">
               <span ref={typedRef}></span>
               <br /> Full Stack Web Developer
             </h1>
 
             <div className="relative">
-              <DottedBorderAnimation></DottedBorderAnimation>
+              <DottedBorderAnimation />
               <img
                 src={myImage}
                 alt="Akanksha Singh"
@@ -45,7 +46,8 @@ function Intro() {
               />
             </div>
 
-            <div className="flex flex-col items-center md:items-start gap-2 mt-12">
+            {/* Link Section Fixed */}
+            <div className="relative z-10 flex flex-col items-center md:items-start gap-2 mt-12">
               <a
                 href="mailto:akusingh0907@gmail.com"
                 className="hover:underline"
@@ -80,28 +82,21 @@ function Intro() {
         </ScrollAnimationWrapper>
 
         <ScrollAnimationWrapper className="max-w-5xl w-full mx-auto mt-10 px-6 text-center ">
-          <h3 className=" text-2xl font-bold font-[cursive] mb-4">Objective</h3>
-          <div className=" flex flex-col md:flex-row items-center md:items-start gap-10 text-left w-full">
-            {/* Left Side */}
-            <div className=" w-full md:w-2/4 h-[450px]">
+          <h3 className="text-2xl font-bold font-[cursive] mb-4">Objective</h3>
+          <div className="flex flex-col md:flex-row items-center md:items-start gap-10 text-left w-full">
+            {/* Left Side Video */}
+            <div className="w-full md:w-2/4 h-[450px]">
               <video
                 autoPlay
                 muted
                 loop
-                class="w-full h-[500px]"
+                className="w-full h-[500px]"
                 src={video}
               ></video>
             </div>
-            {/* <div className=" w-full md:w-2/4 h-[450px]">
-              <img
-                src={myObj}
-                alt="Objective"
-                className="w-full h-full object-cover rounded-md"
-              />
-            </div> */}
 
-            {/* Right Side */}
-            <div className=" ml-auto  w-full md:w-1/2 text-lg text-gray-700">
+            {/* Right Side Text */}
+            <div className="ml-auto w-full md:w-1/2 text-lg text-gray-700">
               <p>
                 Code, Coffee, and Creativity — that’s my fuel! I’m a full-stack
                 web developer who loves turning ideas into beautifully crafted

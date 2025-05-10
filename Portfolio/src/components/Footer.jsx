@@ -1,9 +1,9 @@
 import ScrollAnimationWrapper from "./ScrollAnimationWrapper"; // Import the wrapper
-import foot from "../assets/foot.jpg"
+import back from "../assets/back.jpg"
 function Footer() {
   return (
     <ScrollAnimationWrapper>
-      <footer className=" py-8 " style={{ backgroundImage: `url(${foot})` }}>
+      <footer className=" py-8 " style={{ backgroundImage: `url(${back})` }}>
         <div className="max-w-4xl mx-auto px-4 text-center bg-transparent">
           <p className="mb-4  ">
             © 2025 Akanksha Singh. All rights reserved.

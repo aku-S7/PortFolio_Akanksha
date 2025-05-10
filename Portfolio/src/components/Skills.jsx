@@ -43,7 +43,7 @@ function Skills() {
       <section
         id="skills"
         className="py-20 bg-[#f3eeea] text-[#7d715e]  "
-        
+        style={{ backgroundImage: `url(${back})` }}
       >
         <div className="max-w-3xl mx-auto px-4">
           <h2
