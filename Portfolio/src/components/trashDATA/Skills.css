@@ -1,0 +1,97 @@
+/* *{
+    color: rgba(125, 113, 94, 1);
+    background-color: rgba(243, 238, 234, 1);
+}
+
+.skills-section {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    
+  }
+  
+  .skills-container {
+    max-width: 56rem;
+    margin-left: auto;
+   
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  
+  .skills-title {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.875rem;
+    width: 100px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 3rem;
+    position: relative;
+    font-family: cursive;
+<<<<<<< HEAD:Portfolio/src/components/trashDATA/Skills.css
+    
+=======
+
+>>>>>>> 306c4240a6ddc89b28a8213aa5268b504dea457f:Portfolio/src/components/Skill/Skills.css
+  }
+
+  .skills-title::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 2px;
+    background-color:rgba(125, 113, 94, 1);
+    transform: scaleX(0);
+    transform-origin: center; 
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .skills-title:hover::before {
+    transform: scaleX(1);
+  }
+
+  
+  .skills-grid {
+    display:flex;
+    gap: 1.5rem;
+   
+    justify-content: center;
+    flex-wrap: wrap;
+    
+  }
+  
+  @media (min-width: 768px) {
+    .skills-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .skills-grid {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+  
+  .skill-card {
+    padding: 1.5rem;
+   
+    border-radius: 0.5rem;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    width: 250px;
+    
+  }
+  .skill-cardh3{
+    transition: transform 0.3s ease, background-color 0.3s ease, color 0.3s ease;
+  }
+
+  .skill-name {
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+  }
+  
+  .skill-rating {
+    color: rgba(125, 113, 94, 1);
+    font-size: 1.25rem;
+  }
